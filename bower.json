@@ -1,0 +1,30 @@
+{
+  "name": "siges-ui",
+  "description": "UI for Siges Platform",
+  "main": "",
+  "authors": [
+    "Jose Carlso Gallo <josecgallo@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/components/"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "ng-sortable": "~1.3.1",
+    "angular-animate": "~1.4.7",
+    "angular-loading-bar": "~0.8.0",
+    "angular-tablesort": "~1.1.0",
+    "Sortable": "~1.4.1",
+    "ng-flow": "~2",
+    "teamdf/jquery-number": "jquery-number#~2.1.6"
+  }
+}
