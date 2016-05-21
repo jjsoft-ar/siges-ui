@@ -28,7 +28,7 @@ class SigesUIServiceProvider extends ServiceProvider
             __DIR__.'/../../public' => public_path(),
         ], 'sigespublic');
         $this->publishes([
-            __DIR__.'/../../resources/views' => base_path('resources/views/vendor/sigesui')
+            __DIR__.'/../../resources/views' => base_path('resources/views/vendor/sigesui'),
         ], 'sigesviews');
     }
 }
