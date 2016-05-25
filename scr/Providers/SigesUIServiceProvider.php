@@ -12,6 +12,7 @@ class SigesUIServiceProvider extends ServiceProvider
      * @var bool
      */
     protected $defer = false;
+
     /**
      * Bootstrap the application services.
      *
