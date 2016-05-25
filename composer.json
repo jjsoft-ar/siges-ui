@@ -1,26 +1,39 @@
 {
     "name": "jjsoft-ar/siges-ui",
-    "description": "UI interface for SiGEs Platform",
-    "keywords": ["SiGEsApp", "Laravel Framework", "School Application Platform", "SAP"],
     "type": "library",
-    "require": {
-        "php": ">=5.5.9"
-    },
+    "description": "UI interface for SiGEs Platform",
+    "keywords": [
+        "jjsoft-ar",
+        "siges-ui",
+        "SiGEsApp",
+        "Laravel Framework",
+        "School Application Platform",
+        "SAP"
+    ],
+    "homepage": "https://github.com/jjsoft-ar/siges-ui",
     "license": "MIT",
     "authors": [
         {
             "name": "Jose C Gallo",
             "email": "josecgallo@gmail.com"
+            "homepage": "http://aguaragazu.github.io/aguaragazu",
+            "role": "Developer"
         }
     ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
     "autoload": {
         "psr-4": {
-            "JJSoft\\SigesUi\\": "src/"
+            "JJSoft\\SigesUI\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "preferred-install": "dist"
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
