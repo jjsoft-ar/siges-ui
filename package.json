@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "siges-ui",
+  "version": "1.0.0",
+  "description": "Siges UI admin template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjsoft/siges-ui.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "admin",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "author": "Aguara Gazu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjsoft/siges-ui/issues"
+  },
+  "homepage": "https://github.com/jjsoft/siges-ui#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {
+    "laravel-elixir": "^3.0.0"
+  }
+}

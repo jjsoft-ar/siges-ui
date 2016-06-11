@@ -1,0 +1,51 @@
+var elixir = require('laravel-elixir');
+/** Compile the less and JS! **/
+elixir(function (mix) {
+    mix.less("bootstrap/bootstrap.less");
+    mix.less("siges.less");
+    mix.styles([
+        '../../../build/css/custom.css',
+        '../../../build/css/custom.min.css',
+        "../../components/bootstrap/dist/css/bootstrap.css",
+        "../../components/animate.css/animate.css",
+        '../../components/fullcalendar/dist/fullcalendar.css',
+        '../../components/fullcalendar/dist/fullcalendar.print.css',
+        "../../components/datatables.net-bs/css/dataTables.bootstrap.min.css",
+        '../../components/morris.js/morris.css',
+        '../../components/select2/dist/css/select2.css',
+        '../../components/sweetalert/dist/sweetalert.css',
+        "../../components/angular-loading-bar/build/loading-bar.css",
+        "../../components/ng-sortable/dist/ng-sortable.css",
+        "../../components/angular-tablesort/tablesort.css",
+    ]);
+    mix.scripts([
+        '../../../build/js/custom.js',
+        '../../../build/js/custom.min.js',
+        "../../components/jquery/dist/jquery.js",
+        "../../components/bootstrap/dist/js/bootstrap.js",
+        "../../components/angular/angular.js",
+        "../../components/datatables.net/js/jquery.dataTables.min.js",
+        "../../components/datatables.net-bs/js/dataTables.bootstrap.min.js",
+        "../../components/slugify/slugify.js",
+        "../../components/bootstrap-wysihtml5/dist/bootstrap-wysihtml5-0.0.2.min.js",
+        "../../components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js",
+        "../../components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js",
+        "../../components/bootstrap-daterangepicker/daterangepicker.js",
+        "../../components/fullcalendar/dist/fullcalendar.min.js",
+        '../../components/Chart.js/dist/Chart.min.js',
+        '../../components/morris.js/morris.min.js',
+        '../../components/select2/dist/js/select2.full.min.js',
+        '../../components/select2/dist/js/i18n/es.js',
+        '../../components/sweetalert/dist/sweetalert.min.js',
+        "../../components/angular-animate/angular-animate.js",
+        "../../components/angular-loading-bar/build/loading-bar.js",
+        "../../components/ng-sortable/dist/ng-sortable.js",
+        "../../components/angular-tablesort/js/angular-tablesort.js",
+        "../../components/Sortable/Sortable.js",
+        "../../components/Sortable/ng-sortable.js",
+        "../../components/ng-flow/dist/ng-flow-standalone.min.js",
+        "../../components/plupload/js/plupload.full.min.js",
+        "../../components/angular-plupload/dist/angular-plupload.min.js",
+        "app.js"
+    ]);
+});
