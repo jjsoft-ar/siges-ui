@@ -1,6 +1,6 @@
 {
     "name": "jjsoft-ar/siges-ui",
-    "version": "1.0.0",
+    "version": "v1.1.3",
     "type": "library",
     "description": "UI interface for SiGEs Platform",
     "keywords": [
@@ -8,8 +8,7 @@
         "siges-ui",
         "SiGEsApp", 
         "Laravel Framework",
-        "School Application Platform",
-        "SAP"
+        "School Application Platform"
     ],
     "homepage": "https://github.com/jjsoft-ar/siges-ui",
     "license": "MIT",
