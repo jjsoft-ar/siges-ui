@@ -9,6 +9,7 @@ This package is designed to apply a quick and easy template into a laravel appli
 
 The idea is for JJSoft-Laravel web applications to use this template/package. This should make it easier to keep multiple applications up to date and enable quicker development.
 
+
 ## Install
 
 Via Composer
@@ -46,16 +47,9 @@ Taking a new install of laravel open up routes file and past in the below. Navig
     });
 ```
 
-
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 This template is a modified version of gentelella template.
@@ -80,6 +74,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/jjsoft-ar/siges-ui.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/jjsoft-ar/siges-ui.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/59267204/shield
+
 
 [link-issues]: https://github.com/jjsoft-ar/siges-ui/issues
 [link-packagist]: https://packagist.org/packages/jjsoft-ar/siges-ui

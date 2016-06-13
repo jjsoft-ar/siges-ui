@@ -4,8 +4,6 @@ elixir(function (mix) {
     mix.less("bootstrap/bootstrap.less");
     mix.less("siges.less");
     mix.styles([
-        '../../../build/css/custom.css',
-        '../../../build/css/custom.min.css',
         "../../components/bootstrap/dist/css/bootstrap.css",
         "../../components/animate.css/animate.css",
         '../../components/fullcalendar/dist/fullcalendar.css',
@@ -17,10 +15,9 @@ elixir(function (mix) {
         "../../components/angular-loading-bar/build/loading-bar.css",
         "../../components/ng-sortable/dist/ng-sortable.css",
         "../../components/angular-tablesort/tablesort.css",
+        '../../../build/css/custom.min.css',
     ]);
     mix.scripts([
-        '../../../build/js/custom.js',
-        '../../../build/js/custom.min.js',
         "../../components/jquery/dist/jquery.js",
         "../../components/bootstrap/dist/js/bootstrap.js",
         "../../components/angular/angular.js",
@@ -46,6 +43,7 @@ elixir(function (mix) {
         "../../components/ng-flow/dist/ng-flow-standalone.min.js",
         "../../components/plupload/js/plupload.full.min.js",
         "../../components/angular-plupload/dist/angular-plupload.min.js",
+        '../../../build/js/custom.min.js',
         "app.js"
     ]);
 });

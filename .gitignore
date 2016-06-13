@@ -1,2 +1,19 @@
+<<<<<<< HEAD
 /vendors
 /node_modules
+=======
+vendor/
+node_modules/
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+bootstrap/cache/
+storage/
+.env.*.php
+.env.php
+.env
+.env.example
+>>>>>>> 06db8987a252dfd244c5265571015897d661d7f1
