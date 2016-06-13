@@ -1,5 +1,6 @@
 <?php
 namespace JJSoft\SigesUI\Providers;
+
 use Illuminate\Support\ServiceProvider;
 
 class SigesUIServiceProvider extends ServiceProvider
@@ -34,5 +35,4 @@ class SigesUIServiceProvider extends ServiceProvider
             __DIR__.'/../../resources/views' => base_path('resources/views/vendor/sigesui'),
         ], 'sigesviews');
     }
-    
 }
