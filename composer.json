@@ -1,6 +1,5 @@
 {
     "name": "jjsoft-ar/siges-ui",
-    "version": "v1.1.3",
     "type": "library",
     "description": "UI interface for SiGEs Platform",
     "keywords": [
@@ -25,7 +24,7 @@
         "illuminate/support": "~5.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : "4.*",
+        "phpunit/phpunit" : "4.*"
     },
     "autoload": {
         "psr-4": {
