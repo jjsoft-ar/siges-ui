@@ -38,6 +38,7 @@
                             <span class="image">
                               <img src="./images/img.jpg" alt="Profile Image" />
                             </span>
+
                         <span>
                                           <span>John Smith</span>
                         <span class="time">3 mins ago</span>
@@ -50,7 +51,9 @@
                     <li>
                         <a>
                         <span class="image">
+
                                           <img src="./images/img.jpg" alt="Profile Image" />
+
                                       </span>
                         <span>
                                           <span>John Smith</span>
@@ -64,7 +67,9 @@
                     <li>
                         <a>
                         <span class="image">
+
                                           <img src="./images/img.jpg" alt="Profile Image" />
+
                                       </span>
                         <span>
                                           <span>John Smith</span>

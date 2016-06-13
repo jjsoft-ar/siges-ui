@@ -57,7 +57,6 @@ This template is a modified version of gentelella template.
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
 
 ## Security
-
 If you discover any security related issues, please tell us [https://github.com/jjsoft-ar/siges-ui/issues][link-issues].
 
 ## Credits
@@ -74,7 +73,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/jjsoft-ar/siges-ui.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/jjsoft-ar/siges-ui.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/59267204/shield
-
 
 [link-issues]: https://github.com/jjsoft-ar/siges-ui/issues
 [link-packagist]: https://packagist.org/packages/jjsoft-ar/siges-ui
