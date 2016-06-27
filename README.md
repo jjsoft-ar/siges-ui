@@ -5,9 +5,9 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This package is designed to apply a quick and easy template into a laravel application.
+This package is designed to apply a quick and easy packages into a laravel application.
 
-The idea is for JJSoft-Laravel web applications to use this template/package. This should make it easier to keep multiple applications up to date and enable quicker development.
+The idea is for JJSoft-Laravel web applications to use this package. This should make it easier to keep multiple applications up to date and enable quicker development.
 
 
 ## Install

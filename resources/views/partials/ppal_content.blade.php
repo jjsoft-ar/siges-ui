@@ -32,8 +32,8 @@
             </div>
             <div class="x_content">
                 <!-- content starts here -->
-            @yield('content')
-            <!-- content ends here -->
+                @yield('content')
+                <!-- content ends here -->
             </div>
         </div>
     </div>

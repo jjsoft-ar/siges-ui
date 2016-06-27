@@ -5,6 +5,10 @@ node_js:
   - "5.11"
   - "0.6"
   - "iojs"
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libnotify-bin
 before_script:
+  - bower install
   - npm install -g gulp
 script: gulp

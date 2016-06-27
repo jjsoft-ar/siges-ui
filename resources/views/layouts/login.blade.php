@@ -15,9 +15,10 @@
         <!-- Custom Theme Style -->
         <link href="{!! asset('assets/css/custom.min.css') !!}" rel="stylesheet">
     </head>
-    <body class="login">
+    <body class="login login-page">
         <div>
             @yield('content')
         </div>
+        @include('sigesui::partials.footer_meta')
     </body>
 </html>
